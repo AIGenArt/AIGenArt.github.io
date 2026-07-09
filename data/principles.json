@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Simple before fancy",
+    "description": "The solution should be understandable, maintainable and useful before it becomes visually complex."
+  },
+  {
+    "title": "Small controlled changes",
+    "description": "Work is broken into reviewable steps with clear purpose, checks and rollback options."
+  },
+  {
+    "title": "Value-focused automation",
+    "description": "AI and automation are used where they create real speed, clarity or quality."
+  }
+]

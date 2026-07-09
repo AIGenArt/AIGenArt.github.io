@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Project management",
+    "level": "Core strength",
+    "summary": "Planning, execution, coordination and follow-up across technical projects.",
+    "items": ["Task prioritization", "Stakeholder coordination", "Contractor follow-up", "Risk and dependency management"]
+  },
+  {
+    "group": "Energy infrastructure",
+    "level": "Professional domain",
+    "summary": "Experience with MV/LV grid projects, switchgear, generators, commissioning and permit systems.",
+    "items": ["10/0.4 kV projects", "Switchgear", "Commissioning", "HSE and permits"]
+  },
+  {
+    "group": "AI-assisted programming",
+    "level": "Advanced practitioner - DigComp level 5/6",
+    "summary": "Uses AI tools to build, inspect and improve practical software with controlled workflows.",
+    "items": ["Prompting for code", "Debugging with AI", "GitHub PR workflow", "Product thinking"]
+  },
+  {
+    "group": "Web applications",
+    "level": "Practical builder",
+    "summary": "Builds useful web apps with modern frontend, database and deployment workflows.",
+    "items": ["Next.js", "TypeScript", "Supabase", "Netlify / GitHub Pages"]
+  },
+  {
+    "group": "Quality and governance",
+    "level": "Structured approach",
+    "summary": "Keeps changes small, reviewable and connected to value instead of complexity.",
+    "items": ["Scope control", "Diff checks", "Testing mindset", "Documentation"]
+  },
+  {
+    "group": "Communication",
+    "level": "Execution focused",
+    "summary": "Communicates clearly with technical and non-technical stakeholders.",
+    "items": ["Clear priorities", "Simple explanations", "Decision support", "Follow-up"]
+  }
+]

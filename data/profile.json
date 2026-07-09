@@ -1,0 +1,26 @@
+{
+  "name": "Saad",
+  "brand": "Saad",
+  "eyebrow": "Portfolio",
+  "headline": "Technical project manager building practical webapps with AI.",
+  "summary": "I combine project management, energy infrastructure experience and AI-assisted development to build simple, useful digital tools.",
+  "contactText": "Reach out through GitHub or LinkedIn. More contact details can be added here later.",
+  "focus": [
+    "AI-assisted programming",
+    "Technical project management",
+    "Energy infrastructure",
+    "Practical web applications"
+  ],
+  "links": [
+    {
+      "label": "View GitHub",
+      "url": "https://github.com/AIGenArt",
+      "primary": true
+    },
+    {
+      "label": "View projects",
+      "url": "#projects",
+      "primary": false
+    }
+  ]
+}

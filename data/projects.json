@@ -1,0 +1,26 @@
+[
+  {
+    "name": "PlanITNU",
+    "type": "Web application",
+    "role": "Founder / builder",
+    "summary": "A practical project planning tool focused on daily execution, prioritization and project overview. Built through an AI-assisted development workflow.",
+    "impact": "Shows the ability to turn project management needs into a working digital product.",
+    "tags": ["Next.js", "TypeScript", "Supabase", "AI workflow", "Project planning"]
+  },
+  {
+    "name": "AI-assisted development workflow",
+    "type": "Development system",
+    "role": "Designer / operator",
+    "summary": "A controlled workflow using GitHub, pull requests, scope checks and AI coding support to ship small and large changes safely.",
+    "impact": "Shows structured technical delivery, governance and quality control.",
+    "tags": ["GitHub", "PR review", "Codex", "ChatGPT", "Quality checks"]
+  },
+  {
+    "name": "MV/LV energy project delivery",
+    "type": "Infrastructure delivery",
+    "role": "Project manager",
+    "summary": "Planning and execution of 10/0.4 kV infrastructure work with stakeholders, permits, contractors, procurement, HSE and technical dependencies.",
+    "impact": "Shows real delivery responsibility in critical infrastructure projects.",
+    "tags": ["MV/LV", "Stakeholders", "Permits", "HSE", "Contractors"]
+  }
+]
