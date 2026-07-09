@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio for Saad - technical project manager building practical webapps with AI." />
+    <title>Saad | Technical Project Manager & AI Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" data-profile="brand">Saad</a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#competencies">Competencies</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow" data-profile="eyebrow">Portfolio</p>
+          <h1 data-profile="headline">Technical project manager building practical webapps with AI.</h1>
+          <p class="lead" data-profile="summary">
+            I combine project management, energy infrastructure experience and AI-assisted development to build simple, useful digital tools.
+          </p>
+          <div class="hero-actions" data-links="primary"></div>
+        </div>
+        <aside class="hero-card" aria-label="Profile summary">
+          <p class="card-label">Current focus</p>
+          <ul data-list="focus"></ul>
+        </aside>
+      </section>
+
+      <section class="section-shell section-intro">
+        <p class="section-kicker">Positioning</p>
+        <h2>Practical execution, technical understanding and AI-assisted delivery.</h2>
+        <p>
+          This portfolio is intentionally simple: it shows real capabilities, practical projects and how I work. The content is generated from structured data files, so the site can be updated without redesigning the page.
+        </p>
+      </section>
+
+      <section id="projects" class="section-shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Selected work</p>
+            <h2>Projects and cases</h2>
+          </div>
+          <p>Case-style project cards focused on role, value and documented capabilities.</p>
+        </div>
+        <div class="project-grid" data-projects></div>
+      </section>
+
+      <section id="competencies" class="section-shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Competencies</p>
+            <h2>What I bring</h2>
+          </div>
+          <p>Grouped capabilities across project management, energy infrastructure and AI-assisted development.</p>
+        </div>
+        <div class="competency-grid" data-competencies></div>
+      </section>
+
+      <section id="experience" class="section-shell split-section">
+        <div>
+          <p class="section-kicker">Experience profile</p>
+          <h2>Built around delivery responsibility.</h2>
+        </div>
+        <div class="timeline" data-experience></div>
+      </section>
+
+      <section class="section-shell proof-section">
+        <div>
+          <p class="section-kicker">Working style</p>
+          <h2>Simple, controlled and value-focused.</h2>
+        </div>
+        <div class="proof-grid" data-principles></div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section">
+        <p class="section-kicker">Contact</p>
+        <h2>Interested in practical digital tools, project delivery or AI-assisted development?</h2>
+        <p data-profile="contactText">Reach out through GitHub or LinkedIn. More contact details can be added here later.</p>
+        <div class="hero-actions" data-links="secondary"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p><span data-profile="footerName">Saad</span> - portfolio generated from structured data.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>
