@@ -1,6 +1,22 @@
 [
-  {"title":"Project delivery","items":["Planning","Prioritisation","Stakeholders","Contractors","Risk"]},
-  {"title":"Energy infrastructure","items":["MV/LV","Switchgear","Commissioning","HSE","Permits"]},
-  {"title":"Product development","items":["Next.js","TypeScript","Supabase","UX","Deployment"]},
-  {"title":"AI-assisted workflow","items":["Prompting","Debugging","PR review","Scope control","Quality checks"]}
+  {
+    "title": "Project delivery",
+    "level": "Core strength",
+    "items": ["Planning", "Prioritisation", "Stakeholders", "Contractors", "Risk & dependencies"]
+  },
+  {
+    "title": "Energy infrastructure",
+    "level": "Professional domain",
+    "items": ["MV/LV", "Switchgear", "Commissioning", "HSE", "Permit systems"]
+  },
+  {
+    "title": "Product development",
+    "level": "Practical builder",
+    "items": ["Next.js", "TypeScript", "Supabase", "UX thinking", "Deployment"]
+  },
+  {
+    "title": "AI-assisted workflow",
+    "level": "Advanced practitioner",
+    "items": ["Prompting", "Code inspection", "Debugging", "PR review", "Scope control"]
+  }
 ]
