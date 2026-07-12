@@ -1,8 +1,12 @@
 {
-  "name": "saad-github-pages-portfolio",
+  "name": "saad-personal-portfolio",
   "private": true,
-  "version": "2.0.0",
   "scripts": {
-    "validate": "node scripts/validate.mjs"
+    "build:css": "tailwindcss -i ./assets/input.css -o ./assets/styles.css --minify",
+    "validate": "node ./scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17",
+    "tailwindcss-animated": "2.1.0"
   }
 }

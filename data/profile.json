@@ -1,26 +1,41 @@
 {
   "name": "Saad",
-  "brand": "Saad",
-  "eyebrow": "Technical project manager and AI-assisted product builder",
-  "headline": "I turn technical complexity into practical digital tools.",
-  "summary": "I combine real project delivery from energy infrastructure with AI-assisted development to create clearer planning, stronger execution and useful web applications.",
-  "contactText": "For project roles, product collaboration or practical AI-assisted development, contact me through GitHub.",
-  "focus": [
-    "PlanITNU - project planning product",
-    "MV/LV project delivery",
-    "AI-assisted full-stack development",
-    "Controlled GitHub delivery workflows"
-  ],
+  "eyebrow": "Technical project manager & product builder",
+  "summary": "Project manager in energy infrastructure and AI-assisted builder behind PlanITNU. I turn technical needs into clearer plans, controlled delivery and practical digital products.",
   "links": [
     {
-      "label": "Explore my work",
-      "url": "#projects",
+      "label": "View my work",
+      "url": "#work",
       "primary": true
     },
     {
-      "label": "View GitHub",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saadsu/",
+      "primary": false,
+      "icon": "linkedin"
+    },
+    {
+      "label": "GitHub",
       "url": "https://github.com/AIGenArt",
-      "primary": false
+      "primary": false,
+      "icon": "github"
+    }
+  ],
+  "quickOverview": [
+    {
+      "label": "Professional role",
+      "value": "Technical project manager",
+      "detail": "Planning · coordination · execution"
+    },
+    {
+      "label": "Domain",
+      "value": "MV/LV energy infrastructure",
+      "detail": "10/0.4 kV · HSE · stakeholders"
+    },
+    {
+      "label": "Digital focus",
+      "value": "Practical product builder",
+      "detail": "PlanITNU · AI-assisted development"
     }
   ]
 }

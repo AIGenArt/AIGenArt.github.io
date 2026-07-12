@@ -1,17 +1,7 @@
 import { readFile } from "node:fs/promises";
 
-const files = [
-  "data/profile.json",
-  "data/projects.json",
-  "data/competencies.json",
-  "data/experience.json",
-  "data/principles.json"
-];
-
+const files = ["profile", "projects", "skills", "experience"];
 for (const file of files) {
-  const raw = await readFile(file, "utf8");
-  JSON.parse(raw);
-  console.log(`OK: ${file}`);
+  JSON.parse(await readFile(new URL(`../data/${file}.json`, import.meta.url), "utf8"));
 }
-
 console.log("Portfolio data is valid.");

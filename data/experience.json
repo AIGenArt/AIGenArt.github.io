@@ -1,17 +1,17 @@
 [
   {
-    "title": "Project Manager - MV/LV energy infrastructure",
     "period": "Current",
-    "description": "Responsible for planning, coordination and execution of technical infrastructure projects involving stakeholders, contractors, permits, safety and delivery dependencies."
+    "title": "Project Manager — MV/LV energy infrastructure",
+    "description": "Planning, coordination and execution across stakeholders, contractors, permits, safety and technical dependencies."
   },
   {
-    "title": "AI-assisted product and web application builder",
-    "period": "2025 - present",
-    "description": "Designs, builds and improves practical software products through structured AI-assisted development, GitHub workflows and modern web technology."
+    "period": "2025 — present",
+    "title": "AI-assisted product builder",
+    "description": "Designing and building practical web products through structured GitHub and AI-assisted development workflows."
   },
   {
-    "title": "Technical operations and commissioning background",
     "period": "Earlier experience",
-    "description": "Hands-on technical understanding from generators, switchgear, commissioning, production environments and permit-based work."
+    "title": "Technical operations & commissioning",
+    "description": "Hands-on experience with generators, switchgear, commissioning, production environments and permit-based work."
   }
 ]

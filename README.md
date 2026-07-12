@@ -1,27 +1,21 @@
-# Saad - GitHub Pages Portfolio
+# Saad — personal portfolio v3
 
-A light, professional and data-driven portfolio for technical project management, energy infrastructure and AI-assisted product development.
+A light, personal and premium GitHub Pages portfolio focused on fast overview.
 
-## Content files
+## Design direction
 
-Edit these files to update the portfolio without changing the layout:
+- Personal profile-first hero
+- Short, scannable sections
+- Featured PlanITNU case
+- LinkedIn and GitHub contact links
+- Tailwind CSS + `tailwindcss-animated`
+- Motion respects `prefers-reduced-motion`
 
-- `data/profile.json`
-- `data/projects.json`
-- `data/competencies.json`
-- `data/experience.json`
-- `data/principles.json`
-
-## Local preview
-
-```bash
-python -m http.server 4173
-```
-
-Then open `http://localhost:4173`.
-
-## Validate
+## Build CSS
 
 ```bash
-node scripts/validate.mjs
+npm install
+npm run build:css
 ```
+
+The compiled `assets/styles.css` is included, so GitHub Pages can publish the site directly from the `main` branch without running a build.

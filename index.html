@@ -3,183 +3,150 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Saad's portfolio - technical project management, energy infrastructure and AI-assisted product development." />
-    <meta name="theme-color" content="#f5f7f4" />
-    <meta property="og:title" content="Saad | Technical Project Manager and Product Builder" />
-    <meta property="og:description" content="Practical project delivery, energy infrastructure and AI-assisted web development." />
+    <meta name="description" content="Saad — technical project manager in energy infrastructure and AI-assisted product builder behind PlanITNU." />
+    <meta name="theme-color" content="#F7F5F0" />
+    <meta property="og:title" content="Saad | Technical Project Manager & Product Builder" />
+    <meta property="og:description" content="Technical project delivery, energy infrastructure and practical digital products." />
     <meta property="og:type" content="website" />
-    <title>Saad | Technical Project Manager and Product Builder</title>
+    <title>Saad | Technical Project Manager & Product Builder</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+  <body class="overflow-x-hidden">
+    <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white" href="#main">Skip to content</a>
 
-    <header class="site-header">
-      <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="#top" aria-label="Go to top">
-          <span class="brand-mark" aria-hidden="true">S</span>
-          <span class="brand-copy">
-            <strong data-profile="brand">Saad</strong>
-            <small>Projects, systems and AI</small>
+    <header class="sticky top-0 z-40 border-b border-ink/10 bg-cream/85 backdrop-blur-xl">
+      <nav class="page-shell flex min-h-[74px] items-center justify-between gap-5" aria-label="Main navigation">
+        <a class="group flex items-center gap-3" href="#top" aria-label="Go to top">
+          <span class="grid h-10 w-10 place-items-center rounded-full bg-ink font-display text-2xl italic text-white transition group-hover:rotate-6">S</span>
+          <span>
+            <strong class="block text-sm leading-none" data-profile="name">Saad</strong>
+            <small class="mt-1 block text-[0.68rem] font-bold uppercase tracking-[0.14em] text-ink/50">Projects · Energy · AI</small>
           </span>
         </a>
-
-        <div class="nav-links">
-          <a href="#projects">Projects</a>
-          <a href="#competencies">Capabilities</a>
-          <a href="#experience">Experience</a>
-          <a class="nav-cta" href="https://github.com/AIGenArt" target="_blank" rel="noreferrer">GitHub</a>
+        <div class="hidden items-center gap-7 text-sm font-bold text-ink/65 md:flex">
+          <a class="transition hover:text-ink" href="#work">Work</a>
+          <a class="transition hover:text-ink" href="#skills">Skills</a>
+          <a class="transition hover:text-ink" href="#experience">Experience</a>
+          <a class="button button-secondary min-h-10 px-4 py-2" href="https://www.linkedin.com/in/saadsu/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
+        <a class="button button-secondary min-h-10 px-4 py-2 md:hidden" href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="main">
-      <section id="top" class="hero section-shell">
-        <div class="hero-copy reveal">
-          <p class="eyebrow" data-profile="eyebrow">Technical project manager and AI-assisted product builder</p>
-          <h1 data-profile="headline">I turn technical complexity into practical digital tools.</h1>
-          <p class="lead" data-profile="summary">
-            I combine real project delivery from energy infrastructure with AI-assisted development to create clearer planning, stronger execution and useful web applications.
+      <section id="top" class="page-shell grid min-h-[calc(100vh-74px)] items-center gap-12 py-16 lg:grid-cols-[1.15fr_.85fr] lg:py-20">
+        <div class="animate-fade-up animate-once animate-fill-both animate-duration-700">
+          <p class="eyebrow" data-profile="eyebrow">Technical project manager & product builder</p>
+          <h1 class="max-w-[820px] font-display text-[clamp(3.65rem,8.5vw,7.8rem)] leading-[0.84] tracking-[-0.045em]">
+            Hi, I’m Saad.<br />
+            <span class="italic text-forest">I build structure</span><br />
+            in projects and products.
+          </h1>
+          <p class="mt-7 max-w-[670px] text-[clamp(1.05rem,2vw,1.3rem)] leading-8 text-ink/67" data-profile="summary">
+            Project manager in energy infrastructure and AI-assisted builder behind PlanITNU.
           </p>
-          <div class="hero-actions" data-links="primary"></div>
-
-          <div class="hero-proof" aria-label="Profile highlights">
-            <div>
-              <span>Professional domain</span>
-              <strong>MV/LV energy infrastructure</strong>
-            </div>
-            <div>
-              <span>Digital focus</span>
-              <strong>Practical web applications</strong>
-            </div>
-            <div>
-              <span>Delivery method</span>
-              <strong>Controlled AI-assisted workflow</strong>
-            </div>
+          <div class="mt-8 flex flex-wrap gap-3" data-links="primary"></div>
+          <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-bold text-ink/55">
+            <span class="inline-flex items-center gap-2"><i class="h-2.5 w-2.5 animate-pulse rounded-full bg-forest"></i> Based in Denmark</span>
+            <span>MV/LV infrastructure</span>
+            <span>Practical web products</span>
           </div>
         </div>
 
-        <aside class="hero-visual reveal" aria-label="How Saad connects project delivery and digital products">
-          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
-          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
-
-          <div class="system-window">
-            <div class="window-topbar">
-              <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
-              <span>Current focus</span>
-              <span class="status-pill"><i></i> Building</span>
-            </div>
-
-            <div class="system-content">
-              <div class="system-heading">
-                <span>01</span>
-                <div>
-                  <small>Flagship product</small>
-                  <strong>PlanITNU</strong>
+        <aside class="relative mx-auto w-full max-w-[500px] animate-jump-in animate-once animate-fill-both animate-delay-200 animate-duration-700">
+          <div class="profile-frame relative z-10 ml-auto w-[86%] rounded-[2rem] bg-white p-3 shadow-soft">
+            <div class="relative aspect-[4/4.65] overflow-hidden rounded-[1.55rem] bg-gradient-to-br from-mint via-white to-sand">
+              <span class="absolute inset-0 grid place-items-center font-display text-[10rem] italic text-forest/20" aria-hidden="true">S</span>
+              <img class="relative h-full w-full object-cover" src="https://avatars.githubusercontent.com/u/106090841?v=4" alt="Portrait of Saad" onerror="this.style.display='none'" />
+              <div class="absolute inset-x-4 bottom-4 rounded-[1.2rem] border border-white/70 bg-white/85 p-4 backdrop-blur-xl">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <p class="text-xs font-extrabold uppercase tracking-[0.15em] text-forest">Currently building</p>
+                    <p class="mt-1 font-display text-3xl leading-none">PlanITNU</p>
+                  </div>
+                  <span class="chip bg-mint text-forest">In progress</span>
                 </div>
               </div>
-
-              <div class="system-map">
-                <div class="map-node active">
-                  <span>Project needs</span>
-                  <strong>Real workflow</strong>
-                </div>
-                <span class="map-line" aria-hidden="true"></span>
-                <div class="map-node">
-                  <span>AI-assisted build</span>
-                  <strong>Product delivery</strong>
-                </div>
-              </div>
-
-              <ul class="focus-list" data-list="focus"></ul>
             </div>
           </div>
-
-          <div class="floating-note note-one">
-            <span>Project management</span>
-            <strong>Plan, coordinate, deliver</strong>
+          <div class="absolute left-0 top-12 z-20 max-w-[175px] rounded-2xl border border-ink/10 bg-paper p-4 shadow-card animate-fade-right animate-once animate-fill-both animate-delay-500">
+            <p class="text-[0.68rem] font-extrabold uppercase tracking-[0.14em] text-ink/45">Core role</p>
+            <p class="mt-1 text-sm font-extrabold leading-5">Technical project manager</p>
           </div>
-          <div class="floating-note note-two">
-            <span>Digital product</span>
-            <strong>Build, inspect, improve</strong>
+          <div class="absolute -bottom-8 right-0 z-20 max-w-[185px] rounded-2xl bg-cobalt p-4 text-white shadow-soft animate-fade-left animate-once animate-fill-both animate-delay-700">
+            <p class="text-[0.68rem] font-extrabold uppercase tracking-[0.14em] text-white/65">Digital edge</p>
+            <p class="mt-1 text-sm font-extrabold leading-5">AI-assisted product development</p>
           </div>
         </aside>
       </section>
 
-      <section class="positioning-band">
-        <div class="section-shell positioning-grid reveal">
-          <p class="section-kicker">My positioning</p>
-          <div>
-            <h2>Technical understanding on one side. Product thinking on the other.</h2>
-            <p>
-              I work where structured project delivery meets practical software. That combination helps me translate operational needs into systems people can actually use.
-            </p>
+      <section class="border-y border-ink/10 bg-paper">
+        <div class="page-shell grid gap-4 py-6 sm:grid-cols-3" data-quick-overview></div>
+      </section>
+
+      <section id="work" class="page-shell py-24 lg:py-32">
+        <div class="grid gap-8 lg:grid-cols-[.75fr_1.25fr] lg:items-end">
+          <div data-animate="fade-up">
+            <p class="eyebrow">Selected work</p>
+            <h2 class="section-title">A quick look at what I do.</h2>
+          </div>
+          <p class="max-w-2xl text-lg leading-8 text-ink/60 lg:justify-self-end" data-animate="fade-up">Three cases. One common thread: turning technical needs into clear, usable delivery.</p>
+        </div>
+        <div class="mt-12 grid gap-5" data-projects></div>
+      </section>
+
+      <section id="skills" class="bg-ink py-24 text-white lg:py-28">
+        <div class="page-shell grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
+          <div data-animate="fade-right">
+            <p class="eyebrow !text-mint before:!bg-mint/50">What I bring</p>
+            <h2 class="section-title max-w-[620px]">Technical enough to understand. Practical enough to deliver.</h2>
+            <p class="mt-6 max-w-lg text-lg leading-8 text-white/60">A focused mix of project responsibility, energy-domain experience and modern product development.</p>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2" data-skills></div>
+        </div>
+      </section>
+
+      <section id="experience" class="page-shell grid gap-14 py-24 lg:grid-cols-[.75fr_1.25fr] lg:py-32">
+        <div data-animate="fade-right">
+          <p class="eyebrow">Experience</p>
+          <h2 class="section-title">Built on real responsibility.</h2>
+          <p class="mt-6 max-w-md text-lg leading-8 text-ink/60">My digital work is grounded in live projects, safety, stakeholders and technical dependencies.</p>
+        </div>
+        <div class="relative ml-6 border-l border-forest/20 pl-8" data-experience></div>
+      </section>
+
+      <section class="page-shell pb-24 lg:pb-32">
+        <div class="overflow-hidden rounded-[2rem] border border-ink/10 bg-mint p-8 md:p-12" data-animate="fade-up">
+          <div class="grid gap-8 md:grid-cols-[1.1fr_.9fr] md:items-center">
+            <div>
+              <p class="text-xs font-extrabold uppercase tracking-[0.16em] text-forest">How I work</p>
+              <blockquote class="mt-4 font-display text-[clamp(2.6rem,5vw,4.8rem)] leading-[.94] tracking-[-.03em]">“Practical before impressive. Controlled before complex.”</blockquote>
+            </div>
+            <p class="text-lg leading-8 text-ink/65">AI creates speed and options. Human judgement keeps the work relevant, reviewable and responsible.</p>
           </div>
         </div>
       </section>
 
-      <section id="projects" class="section-shell section-block">
-        <div class="section-heading reveal">
-          <div>
-            <p class="section-kicker">Selected work</p>
-            <h2>Projects that show how I think and deliver.</h2>
+      <section id="contact" class="border-t border-ink/10 bg-paper">
+        <div class="page-shell grid gap-8 py-20 md:grid-cols-[1fr_auto] md:items-center">
+          <div data-animate="fade-up">
+            <p class="eyebrow">Let’s connect</p>
+            <h2 class="font-display text-[clamp(3rem,6vw,6rem)] leading-[.9] tracking-[-.04em]">See the person behind the projects.</h2>
+            <p class="mt-5 max-w-xl text-lg leading-8 text-ink/60">Connect with me for project roles, product collaboration or a conversation about practical AI-assisted development.</p>
           </div>
-          <p>Each case connects a concrete need with a controlled delivery approach and visible value.</p>
-        </div>
-        <div class="project-grid" data-projects></div>
-      </section>
-
-      <section id="competencies" class="section-shell section-block">
-        <div class="section-heading reveal">
-          <div>
-            <p class="section-kicker">Capabilities</p>
-            <h2>A combination built for complex, practical work.</h2>
-          </div>
-          <p>My strength is not one isolated skill. It is the ability to connect technology, delivery responsibility and people.</p>
-        </div>
-        <div class="competency-grid" data-competencies></div>
-      </section>
-
-      <section id="experience" class="experience-section">
-        <div class="section-shell split-section">
-          <div class="experience-copy reveal">
-            <p class="section-kicker">Experience profile</p>
-            <h2>Grounded in responsibility, not just ideas.</h2>
-            <p>My digital work is shaped by real technical projects, safety requirements, dependencies and stakeholder coordination.</p>
-          </div>
-          <div class="timeline" data-experience></div>
-        </div>
-      </section>
-
-      <section class="section-shell section-block proof-section">
-        <div class="section-heading reveal">
-          <div>
-            <p class="section-kicker">How I work</p>
-            <h2>Simple, controlled and focused on value.</h2>
-          </div>
-          <p>Professional delivery does not need unnecessary complexity. It needs clear choices, reviewable changes and useful outcomes.</p>
-        </div>
-        <div class="proof-grid" data-principles></div>
-      </section>
-
-      <section id="contact" class="section-shell contact-section reveal">
-        <div class="contact-card">
-          <div>
-            <p class="section-kicker">Contact</p>
-            <h2>Building something practical?</h2>
-            <p data-profile="contactText">For project roles, product collaboration or practical AI-assisted development, contact me through GitHub.</p>
-          </div>
-          <div class="hero-actions" data-links="secondary"></div>
+          <div class="flex flex-wrap gap-3 md:flex-col" data-links="secondary"></div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <p><strong data-profile="footerName">Saad</strong> - Technical project manager and AI-assisted product builder.</p>
-      <p><span data-year></span> / Denmark</p>
+    <footer class="border-t border-ink/10 bg-paper">
+      <div class="page-shell flex flex-col gap-4 py-8 text-sm font-bold text-ink/50 sm:flex-row sm:items-center sm:justify-between">
+        <p><span data-profile="name">Saad</span> · Technical project manager & product builder</p>
+        <p>Denmark · <span data-year></span></p>
+      </div>
     </footer>
 
     <script src="assets/app.js" type="module"></script>

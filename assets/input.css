@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --default-animation-duration: 700ms;
+  --default-animation-delay: 0ms;
+  --default-animation-timing-function: cubic-bezier(.2,.8,.2,1);
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply m-0 bg-cream font-sans text-ink antialiased; }
+  a { @apply text-inherit no-underline; }
+  ::selection { background: #DDF1E9; color: #14211D; }
+}
+
+@layer components {
+  .page-shell { @apply mx-auto w-[min(1180px,calc(100%-2rem))]; }
+  .eyebrow { @apply mb-4 inline-flex items-center gap-2 text-[0.72rem] font-extrabold uppercase tracking-[0.18em] text-forest; }
+  .eyebrow::before { content: ""; @apply h-px w-8 bg-forest/50; }
+  .section-title { @apply font-display text-[clamp(2.4rem,5vw,4.6rem)] leading-[0.95] tracking-[-0.035em]; }
+  .muted { @apply text-ink/65; }
+  .button { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-ink/15 px-5 py-3 text-sm font-extrabold transition duration-300; }
+  .button-primary { @apply border-ink bg-ink text-white hover:-translate-y-0.5 hover:bg-forest hover:shadow-card; }
+  .button-secondary { @apply bg-white/70 hover:-translate-y-0.5 hover:border-forest/30 hover:bg-white; }
+  .glass { @apply border border-white/70 bg-white/75 shadow-card backdrop-blur-xl; }
+  .chip { @apply inline-flex items-center rounded-full border border-ink/10 bg-white/70 px-3 py-1.5 text-xs font-bold text-ink/70; }
+  .quick-card { @apply rounded-[1.4rem] border border-ink/10 bg-white/75 p-5 shadow-card transition duration-300 hover:-translate-y-1 hover:border-forest/25 hover:bg-white; }
+  .project-card { @apply overflow-hidden rounded-[2rem] border border-ink/10 bg-paper shadow-card transition duration-500 hover:-translate-y-1 hover:shadow-soft; }
+  .skill-row { @apply flex flex-wrap gap-2; }
+  .timeline-dot { @apply absolute -left-[1.93rem] top-2 h-3 w-3 rounded-full border-2 border-cream bg-forest shadow-[0_0_0_1px_rgba(31,90,74,.25)]; }
+  .reveal-ready { opacity: 0; }
+  .reveal-visible { opacity: 1; }
+}
+
+.profile-frame::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  border: 1px solid rgba(31, 90, 74, .22);
+  border-radius: 2.3rem;
+  transform: rotate(-3deg);
+}
+
+.profile-frame::after {
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: -12px;
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+  background: #DDF1E9;
+  z-index: -1;
+}
+
+.project-grid-line {
+  background-image:
+    linear-gradient(rgba(20,33,29,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20,33,29,.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.dashboard-line {
+  background: linear-gradient(90deg, rgba(39,86,255,.14), rgba(31,90,74,.18));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
