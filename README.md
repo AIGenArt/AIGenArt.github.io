@@ -1,5 +1,13 @@
-# Saad — visual scroll portfolio
+# Saad Walkthrough Portfolio v2
 
-Static GitHub Pages portfolio with a scroll-driven career story.
+A scroll-controlled portfolio designed as one continuous visual story.
 
-Upload all files directly to the root of `AIGenArt.github.io`.
+## Files
+- `index.html`
+- `assets/styles.css`
+- `assets/app.js`
+
+## Deploy
+Upload all files to the root of `AIGenArt.github.io`.
+
+The site is static and works with GitHub Pages using **Deploy from a branch**.
