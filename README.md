@@ -1,43 +1,16 @@
-# Saad GitHub Pages Portfolio
+# Saad - GitHub Pages Portfolio
 
-A simple, data-driven portfolio for GitHub Pages.
+A light, professional and data-driven portfolio for technical project management, energy infrastructure and AI-assisted product development.
 
-## What this contains
+## Content files
 
-- Static portfolio website
-- Project showcase cards
-- Competency sections
-- Experience profile
-- Structured JSON data files
-- GitHub Actions workflow for validation and Pages deployment
+Edit these files to update the portfolio without changing the layout:
 
-## Recommended GitHub Pages setup
-
-Create a public repository named:
-
-```text
-AIGenArt.github.io
-```
-
-Then upload these files to the `main` branch.
-
-The intended live URL is:
-
-```text
-https://aigenart.github.io/
-```
-
-## Edit content
-
-Most content is in these files:
-
-```text
-data/profile.json
-data/projects.json
-data/competencies.json
-data/experience.json
-data/principles.json
-```
+- `data/profile.json`
+- `data/projects.json`
+- `data/competencies.json`
+- `data/experience.json`
+- `data/principles.json`
 
 ## Local preview
 
@@ -45,18 +18,10 @@ data/principles.json
 python -m http.server 4173
 ```
 
-Open:
+Then open `http://localhost:4173`.
 
-```text
-http://localhost:4173
-```
-
-## Validate data
+## Validate
 
 ```bash
 node scripts/validate.mjs
 ```
-
-## Notes
-
-This project avoids a heavy build system. It is intentionally simple, fast and easy to update.

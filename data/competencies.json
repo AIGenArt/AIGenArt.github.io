@@ -1,38 +1,68 @@
 [
   {
-    "group": "Project management",
+    "group": "Technical project management",
     "level": "Core strength",
-    "summary": "Planning, execution, coordination and follow-up across technical projects.",
-    "items": ["Task prioritization", "Stakeholder coordination", "Contractor follow-up", "Risk and dependency management"]
+    "summary": "Planning, coordination and execution across complex technical work with clear priorities and follow-up.",
+    "items": [
+      "Project planning",
+      "Dependencies",
+      "Contractor follow-up",
+      "Risk and decisions"
+    ]
   },
   {
     "group": "Energy infrastructure",
     "level": "Professional domain",
     "summary": "Experience with MV/LV grid projects, switchgear, generators, commissioning and permit systems.",
-    "items": ["10/0.4 kV projects", "Switchgear", "Commissioning", "HSE and permits"]
+    "items": [
+      "10/0.4 kV projects",
+      "Switchgear",
+      "Commissioning",
+      "HSE and permits"
+    ]
   },
   {
-    "group": "AI-assisted programming",
+    "group": "AI-assisted product development",
     "level": "Advanced practitioner - DigComp level 5/6",
-    "summary": "Uses AI tools to build, inspect and improve practical software with controlled workflows.",
-    "items": ["Prompting for code", "Debugging with AI", "GitHub PR workflow", "Product thinking"]
+    "summary": "Uses AI as a practical development partner while keeping scope, quality and decisions under human control.",
+    "items": [
+      "Product prompting",
+      "Code inspection",
+      "Debugging",
+      "Workflow design"
+    ]
   },
   {
-    "group": "Web applications",
+    "group": "Full-stack web applications",
     "level": "Practical builder",
-    "summary": "Builds useful web apps with modern frontend, database and deployment workflows.",
-    "items": ["Next.js", "TypeScript", "Supabase", "Netlify / GitHub Pages"]
+    "summary": "Builds useful products with modern frontend, database, validation and deployment workflows.",
+    "items": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "GitHub Pages / Netlify"
+    ]
   },
   {
     "group": "Quality and governance",
     "level": "Structured approach",
-    "summary": "Keeps changes small, reviewable and connected to value instead of complexity.",
-    "items": ["Scope control", "Diff checks", "Testing mindset", "Documentation"]
+    "summary": "Keeps changes small, reviewable and tied to value instead of adding unnecessary complexity.",
+    "items": [
+      "Scope control",
+      "Diff checks",
+      "Testing mindset",
+      "Documentation"
+    ]
   },
   {
-    "group": "Communication",
+    "group": "Stakeholder communication",
     "level": "Execution focused",
-    "summary": "Communicates clearly with technical and non-technical stakeholders.",
-    "items": ["Clear priorities", "Simple explanations", "Decision support", "Follow-up"]
+    "summary": "Makes technical work understandable and keeps decisions, responsibilities and next steps visible.",
+    "items": [
+      "Clear priorities",
+      "Simple explanations",
+      "Decision support",
+      "Follow-up"
+    ]
   }
 ]

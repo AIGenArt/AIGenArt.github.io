@@ -1,26 +1,48 @@
 [
   {
     "name": "PlanITNU",
-    "type": "Web application",
-    "role": "Founder / builder",
-    "summary": "A practical project planning tool focused on daily execution, prioritization and project overview. Built through an AI-assisted development workflow.",
-    "impact": "Shows the ability to turn project management needs into a working digital product.",
-    "tags": ["Next.js", "TypeScript", "Supabase", "AI workflow", "Project planning"]
+    "type": "Flagship product",
+    "role": "Product owner / AI-assisted builder",
+    "status": "In active development",
+    "summary": "A practical project planning platform built around real execution needs: priorities, dependencies, timelines, follow-up and daily decision support.",
+    "impact": "Turns hands-on project management experience into a focused digital product instead of another generic planning tool.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "AI workflow",
+      "Product design"
+    ],
+    "visual": "planitnu"
   },
   {
-    "name": "AI-assisted development workflow",
-    "type": "Development system",
-    "role": "Designer / operator",
-    "summary": "A controlled workflow using GitHub, pull requests, scope checks and AI coding support to ship small and large changes safely.",
-    "impact": "Shows structured technical delivery, governance and quality control.",
-    "tags": ["GitHub", "PR review", "Codex", "ChatGPT", "Quality checks"]
+    "name": "Controlled AI development workflow",
+    "type": "Delivery system",
+    "role": "Workflow designer / operator",
+    "status": "Applied in practice",
+    "summary": "A structured development process using scoped changes, GitHub branches, pull requests, automated checks and AI coding support.",
+    "impact": "Creates speed without giving up reviewability, ownership or technical control.",
+    "tags": [
+      "GitHub",
+      "Pull requests",
+      "Codex",
+      "ChatGPT",
+      "Quality checks"
+    ]
   },
   {
     "name": "MV/LV energy project delivery",
-    "type": "Infrastructure delivery",
-    "role": "Project manager",
-    "summary": "Planning and execution of 10/0.4 kV infrastructure work with stakeholders, permits, contractors, procurement, HSE and technical dependencies.",
-    "impact": "Shows real delivery responsibility in critical infrastructure projects.",
-    "tags": ["MV/LV", "Stakeholders", "Permits", "HSE", "Contractors"]
+    "type": "Professional case",
+    "role": "Technical project manager",
+    "status": "Current domain",
+    "summary": "Planning and execution of 10/0.4 kV infrastructure work involving stakeholders, permits, contractors, procurement, HSE and technical dependencies.",
+    "impact": "Provides the real-world delivery discipline and technical context behind the digital products I build.",
+    "tags": [
+      "MV/LV",
+      "Stakeholders",
+      "Permits",
+      "HSE",
+      "Contractors"
+    ]
   }
 ]

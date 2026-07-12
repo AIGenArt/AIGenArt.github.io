@@ -2,53 +2,57 @@ const fallbackData = {
   profile: {
     name: "Saad",
     brand: "Saad",
-    eyebrow: "Portfolio",
-    headline: "Technical project manager building practical webapps with AI.",
-    summary: "I combine project management, energy infrastructure experience and AI-assisted development to build simple, useful digital tools.",
-    contactText: "Reach out through GitHub or LinkedIn. More contact details can be added here later.",
+    eyebrow: "Technical project manager and AI-assisted product builder",
+    headline: "I turn technical complexity into practical digital tools.",
+    summary: "I combine real project delivery from energy infrastructure with AI-assisted development to create clearer planning, stronger execution and useful web applications.",
+    contactText: "For project roles, product collaboration or practical AI-assisted development, contact me through GitHub.",
     focus: [
-      "AI-assisted programming",
-      "Technical project management",
-      "Energy infrastructure",
-      "Practical web applications"
+      "PlanITNU - project planning product",
+      "MV/LV project delivery",
+      "AI-assisted full-stack development",
+      "Controlled GitHub delivery workflows"
     ],
     links: [
-      { label: "View GitHub", url: "https://github.com/AIGenArt", primary: true },
-      { label: "View projects", url: "#projects", primary: false }
+      { label: "Explore my work", url: "#projects", primary: true },
+      { label: "View GitHub", url: "https://github.com/AIGenArt", primary: false }
     ]
   },
   projects: [
     {
       name: "PlanITNU",
-      type: "Web application",
-      role: "Founder / builder",
-      summary: "A practical project planning tool focused on daily execution, prioritization and project overview. Built through an AI-assisted development workflow.",
-      impact: "Shows the ability to turn project management needs into a working digital product.",
-      tags: ["Next.js", "TypeScript", "Supabase", "AI workflow", "Project planning"]
+      type: "Flagship product",
+      role: "Product owner / AI-assisted builder",
+      status: "In active development",
+      summary: "A practical project planning platform built around real execution needs: priorities, dependencies, timelines, follow-up and daily decision support.",
+      impact: "Turns hands-on project management experience into a focused digital product instead of another generic planning tool.",
+      tags: ["Next.js", "TypeScript", "Supabase", "AI workflow", "Product design"],
+      visual: "planitnu"
     },
     {
-      name: "AI-assisted development workflow",
-      type: "Development system",
-      role: "Designer / operator",
-      summary: "A controlled workflow using GitHub, pull requests, scope checks and AI coding support to ship small and large changes safely.",
-      impact: "Shows structured technical delivery, governance and quality control.",
-      tags: ["GitHub", "PR review", "Codex", "ChatGPT", "Quality checks"]
+      name: "Controlled AI development workflow",
+      type: "Delivery system",
+      role: "Workflow designer / operator",
+      status: "Applied in practice",
+      summary: "A structured development process using scoped changes, GitHub branches, pull requests, automated checks and AI coding support.",
+      impact: "Creates speed without giving up reviewability, ownership or technical control.",
+      tags: ["GitHub", "Pull requests", "Codex", "ChatGPT", "Quality checks"]
     },
     {
       name: "MV/LV energy project delivery",
-      type: "Infrastructure delivery",
-      role: "Project manager",
-      summary: "Planning and execution of 10/0.4 kV infrastructure work with stakeholders, permits, contractors, procurement, HSE and technical dependencies.",
-      impact: "Shows real delivery responsibility in critical infrastructure projects.",
+      type: "Professional case",
+      role: "Technical project manager",
+      status: "Current domain",
+      summary: "Planning and execution of 10/0.4 kV infrastructure work involving stakeholders, permits, contractors, procurement, HSE and technical dependencies.",
+      impact: "Provides the real-world delivery discipline and technical context behind the digital products I build.",
       tags: ["MV/LV", "Stakeholders", "Permits", "HSE", "Contractors"]
     }
   ],
   competencies: [
     {
-      group: "Project management",
+      group: "Technical project management",
       level: "Core strength",
-      summary: "Planning, execution, coordination and follow-up across technical projects.",
-      items: ["Task prioritization", "Stakeholder coordination", "Contractor follow-up", "Risk and dependency management"]
+      summary: "Planning, coordination and execution across complex technical work with clear priorities and follow-up.",
+      items: ["Project planning", "Dependencies", "Contractor follow-up", "Risk and decisions"]
     },
     {
       group: "Energy infrastructure",
@@ -57,27 +61,27 @@ const fallbackData = {
       items: ["10/0.4 kV projects", "Switchgear", "Commissioning", "HSE and permits"]
     },
     {
-      group: "AI-assisted programming",
+      group: "AI-assisted product development",
       level: "Advanced practitioner - DigComp level 5/6",
-      summary: "Uses AI tools to build, inspect and improve practical software with controlled workflows.",
-      items: ["Prompting for code", "Debugging with AI", "GitHub PR workflow", "Product thinking"]
+      summary: "Uses AI as a practical development partner while keeping scope, quality and decisions under human control.",
+      items: ["Product prompting", "Code inspection", "Debugging", "Workflow design"]
     },
     {
-      group: "Web applications",
+      group: "Full-stack web applications",
       level: "Practical builder",
-      summary: "Builds useful web apps with modern frontend, database and deployment workflows.",
-      items: ["Next.js", "TypeScript", "Supabase", "Netlify / GitHub Pages"]
+      summary: "Builds useful products with modern frontend, database, validation and deployment workflows.",
+      items: ["Next.js", "TypeScript", "Supabase", "GitHub Pages / Netlify"]
     },
     {
       group: "Quality and governance",
       level: "Structured approach",
-      summary: "Keeps changes small, reviewable and connected to value instead of complexity.",
+      summary: "Keeps changes small, reviewable and tied to value instead of adding unnecessary complexity.",
       items: ["Scope control", "Diff checks", "Testing mindset", "Documentation"]
     },
     {
-      group: "Communication",
+      group: "Stakeholder communication",
       level: "Execution focused",
-      summary: "Communicates clearly with technical and non-technical stakeholders.",
+      summary: "Makes technical work understandable and keeps decisions, responsibilities and next steps visible.",
       items: ["Clear priorities", "Simple explanations", "Decision support", "Follow-up"]
     }
   ],
@@ -85,31 +89,31 @@ const fallbackData = {
     {
       title: "Project Manager - MV/LV energy infrastructure",
       period: "Current",
-      description: "Responsible for planning, coordination and execution of technical infrastructure projects with stakeholders, contractors and safety requirements."
+      description: "Responsible for planning, coordination and execution of technical infrastructure projects involving stakeholders, contractors, permits, safety and delivery dependencies."
     },
     {
-      title: "AI-assisted web application builder",
+      title: "AI-assisted product and web application builder",
       period: "2025 - present",
-      description: "Builds and improves practical software products using AI-assisted programming, GitHub workflows and modern web technology."
+      description: "Designs, builds and improves practical software products through structured AI-assisted development, GitHub workflows and modern web technology."
     },
     {
-      title: "Technical delivery and commissioning experience",
+      title: "Technical operations and commissioning background",
       period: "Earlier experience",
-      description: "Hands-on technical understanding from work with generators, switchgear, commissioning and permit systems."
+      description: "Hands-on technical understanding from generators, switchgear, commissioning, production environments and permit-based work."
     }
   ],
   principles: [
     {
-      title: "Simple before fancy",
-      description: "The solution should be understandable, maintainable and useful before it becomes visually complex."
+      title: "Practical before impressive",
+      description: "A solution should solve a real problem clearly before it becomes visually or technically complicated."
     },
     {
-      title: "Small controlled changes",
-      description: "Work is broken into reviewable steps with clear purpose, checks and rollback options."
+      title: "Controlled delivery",
+      description: "Changes are scoped, reviewable and connected to a clear purpose, with checks before they reach production."
     },
     {
-      title: "Value-focused automation",
-      description: "AI and automation are used where they create real speed, clarity or quality."
+      title: "AI with accountability",
+      description: "AI creates speed and options. Human judgement remains responsible for quality, relevance and decisions."
     }
   ]
 };
@@ -130,6 +134,15 @@ function setText(selector, value) {
   if (element && value) element.textContent = value;
 }
 
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function makeLink(link) {
   const anchor = document.createElement("a");
   anchor.className = `button${link.primary ? " primary" : ""}`;
@@ -143,13 +156,16 @@ function makeLink(link) {
 }
 
 function renderProfile(profile) {
-  document.title = `${profile.name} | Portfolio`;
+  document.title = `${profile.name} | Technical Project Manager and Product Builder`;
   setText('[data-profile="brand"]', profile.brand || profile.name);
   setText('[data-profile="eyebrow"]', profile.eyebrow);
   setText('[data-profile="headline"]', profile.headline);
   setText('[data-profile="summary"]', profile.summary);
   setText('[data-profile="contactText"]', profile.contactText);
   setText('[data-profile="footerName"]', profile.name);
+
+  const description = document.querySelector('meta[name="description"]');
+  if (description) description.setAttribute("content", profile.summary);
 
   const focusList = document.querySelector('[data-list="focus"]');
   focusList.innerHTML = "";
@@ -165,19 +181,54 @@ function renderProfile(profile) {
   });
 }
 
+function createPlanitnuPreview() {
+  return `
+    <div class="project-preview" aria-label="Abstract PlanITNU interface preview">
+      <div class="preview-header"><span>PLANITNU / PROJECT OVERVIEW</span><span>AI-assisted planning</span></div>
+      <div class="preview-body">
+        <div class="preview-sidebar"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="preview-main">
+          <div class="preview-title"><strong>Delivery overview</strong><span>On track</span></div>
+          <div class="preview-row">
+            <div class="preview-card"><small>Priority work</small><i></i><i></i></div>
+            <div class="preview-card"><small>Dependencies</small><i></i><i></i></div>
+          </div>
+          <div class="preview-row">
+            <div class="preview-card"><small>Timeline</small><div class="preview-timeline"><span></span><span></span><span></span></div></div>
+            <div class="preview-card"><small>Follow-up</small><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function renderProjects(projects) {
   const container = document.querySelector("[data-projects]");
   container.innerHTML = "";
-  projects.forEach((project) => {
+
+  projects.forEach((project, index) => {
     const article = document.createElement("article");
-    article.className = "project-card";
-    article.innerHTML = `
-      <p class="project-meta">${project.type} - ${project.role}</p>
-      <h3>${project.name}</h3>
-      <p>${project.summary}</p>
-      <p><strong>Value:</strong> ${project.impact}</p>
-      <ul class="tags">${project.tags.map((tag) => `<li class="tag">${tag}</li>`).join("")}</ul>
+    article.className = `project-card reveal${index === 0 ? " featured" : ""}`;
+
+    const copy = `
+      <div class="project-copy">
+        <div class="project-topline">
+          <span class="project-number">${String(index + 1).padStart(2, "0")}</span>
+          ${project.status ? `<span class="project-status">${escapeHtml(project.status)}</span>` : ""}
+        </div>
+        <p class="project-meta">${escapeHtml(project.type)} / ${escapeHtml(project.role)}</p>
+        <h3>${escapeHtml(project.name)}</h3>
+        <p>${escapeHtml(project.summary)}</p>
+        <p class="project-value"><strong>Value:</strong> ${escapeHtml(project.impact)}</p>
+        <ul class="tags">${project.tags.map((tag) => `<li class="tag">${escapeHtml(tag)}</li>`).join("")}</ul>
+      </div>
     `;
+
+    article.innerHTML = index === 0 && project.visual === "planitnu"
+      ? `${copy}${createPlanitnuPreview()}`
+      : copy;
+
     container.appendChild(article);
   });
 }
@@ -185,14 +236,16 @@ function renderProjects(projects) {
 function renderCompetencies(competencies) {
   const container = document.querySelector("[data-competencies]");
   container.innerHTML = "";
-  competencies.forEach((competency) => {
+
+  competencies.forEach((competency, index) => {
     const article = document.createElement("article");
-    article.className = "competency-card";
+    article.className = "competency-card reveal";
     article.innerHTML = `
-      <p class="competency-meta">${competency.level}</p>
-      <h3>${competency.group}</h3>
-      <p>${competency.summary}</p>
-      <ul>${competency.items.map((item) => `<li>${item}</li>`).join("")}</ul>
+      <div class="competency-index"><span>${String(index + 1).padStart(2, "0")}</span><span aria-hidden="true"></span></div>
+      <p class="competency-meta">${escapeHtml(competency.level)}</p>
+      <h3>${escapeHtml(competency.group)}</h3>
+      <p>${escapeHtml(competency.summary)}</p>
+      <ul>${competency.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
     `;
     container.appendChild(article);
   });
@@ -201,13 +254,15 @@ function renderCompetencies(competencies) {
 function renderExperience(items) {
   const container = document.querySelector("[data-experience]");
   container.innerHTML = "";
-  items.forEach((item) => {
+
+  items.forEach((item, index) => {
     const article = document.createElement("article");
-    article.className = "timeline-item";
+    article.className = "timeline-item reveal";
+    article.dataset.index = String(index + 1).padStart(2, "0");
     article.innerHTML = `
-      <p class="timeline-period">${item.period}</p>
-      <h3>${item.title}</h3>
-      <p>${item.description}</p>
+      <p class="timeline-period">${escapeHtml(item.period)}</p>
+      <h3>${escapeHtml(item.title)}</h3>
+      <p>${escapeHtml(item.description)}</p>
     `;
     container.appendChild(article);
   });
@@ -216,12 +271,36 @@ function renderExperience(items) {
 function renderPrinciples(items) {
   const container = document.querySelector("[data-principles]");
   container.innerHTML = "";
-  items.forEach((item) => {
+
+  items.forEach((item, index) => {
     const article = document.createElement("article");
-    article.className = "principle-card";
-    article.innerHTML = `<h3>${item.title}</h3><p>${item.description}</p>`;
+    article.className = "principle-card reveal";
+    article.innerHTML = `
+      <span class="principle-number">${String(index + 1).padStart(2, "0")}</span>
+      <h3>${escapeHtml(item.title)}</h3>
+      <p>${escapeHtml(item.description)}</p>
+    `;
     container.appendChild(article);
   });
+}
+
+function initRevealAnimations() {
+  const elements = document.querySelectorAll(".reveal");
+
+  if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    elements.forEach((element) => element.classList.add("is-visible"));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.12 });
+
+  elements.forEach((element) => observer.observe(element));
 }
 
 async function init() {
@@ -238,6 +317,8 @@ async function init() {
   renderCompetencies(competencies);
   renderExperience(experience);
   renderPrinciples(principles);
+  setText("[data-year]", new Date().getFullYear());
+  initRevealAnimations();
 }
 
 init();

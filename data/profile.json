@@ -1,25 +1,25 @@
 {
   "name": "Saad",
   "brand": "Saad",
-  "eyebrow": "Portfolio",
-  "headline": "Technical project manager building practical webapps with AI.",
-  "summary": "I combine project management, energy infrastructure experience and AI-assisted development to build simple, useful digital tools.",
-  "contactText": "Reach out through GitHub or LinkedIn. More contact details can be added here later.",
+  "eyebrow": "Technical project manager and AI-assisted product builder",
+  "headline": "I turn technical complexity into practical digital tools.",
+  "summary": "I combine real project delivery from energy infrastructure with AI-assisted development to create clearer planning, stronger execution and useful web applications.",
+  "contactText": "For project roles, product collaboration or practical AI-assisted development, contact me through GitHub.",
   "focus": [
-    "AI-assisted programming",
-    "Technical project management",
-    "Energy infrastructure",
-    "Practical web applications"
+    "PlanITNU - project planning product",
+    "MV/LV project delivery",
+    "AI-assisted full-stack development",
+    "Controlled GitHub delivery workflows"
   ],
   "links": [
     {
-      "label": "View GitHub",
-      "url": "https://github.com/AIGenArt",
+      "label": "Explore my work",
+      "url": "#projects",
       "primary": true
     },
     {
-      "label": "View projects",
-      "url": "#projects",
+      "label": "View GitHub",
+      "url": "https://github.com/AIGenArt",
       "primary": false
     }
   ]
