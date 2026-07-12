@@ -2,7 +2,6 @@
   "name": "saad-personal-portfolio",
   "private": true,
   "scripts": {
-    "build:css": "tailwindcss -i ./assets/input.css -o ./assets/styles.css --minify",
     "validate": "node ./scripts/validate.mjs"
   },
   "devDependencies": {

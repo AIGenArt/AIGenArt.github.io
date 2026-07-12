@@ -1,21 +1,13 @@
-# Saad — personal portfolio v3
+# Saad Sufian — GitHub Pages portfolio
 
-A light, personal and premium GitHub Pages portfolio focused on fast overview.
+A light, personal portfolio with a visual PlanITNU product showcase.
 
-## Design direction
+## Deploy
 
-- Personal profile-first hero
-- Short, scannable sections
-- Featured PlanITNU case
-- LinkedIn and GitHub contact links
-- Tailwind CSS + `tailwindcss-animated`
-- Motion respects `prefers-reduced-motion`
+Upload all files and folders to the root of `AIGenArt/AIGenArt.github.io` on the `main` branch.
 
-## Build CSS
+The site is static and requires no build step.
 
-```bash
-npm install
-npm run build:css
-```
+## Content
 
-The compiled `assets/styles.css` is included, so GitHub Pages can publish the site directly from the `main` branch without running a build.
+Short profile content is stored in `data/*.json`. PlanITNU screenshots are stored in `assets/images/`.
