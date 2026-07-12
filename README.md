@@ -1,3 +1,5 @@
-# Saad Portfolio — revised V3
+# Saad — visual scroll portfolio
 
-Personal GitHub Pages portfolio with concise copy and integrated PlanITNU product branding.
+Static GitHub Pages portfolio with a scroll-driven career story.
+
+Upload all files directly to the root of `AIGenArt.github.io`.
