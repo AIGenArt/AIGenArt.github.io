@@ -1,10 +1,10 @@
 {
   "name": "Saad",
   "eyebrow": "Technical project manager & product builder",
-  "summary": "Project manager in energy infrastructure and AI-assisted builder behind PlanITNU. I turn technical needs into clearer plans, controlled delivery and practical digital products.",
+  "summary": "I lead technical energy projects and build practical digital products.",
   "links": [
     {
-      "label": "View my work",
+      "label": "Selected work",
       "url": "#work",
       "primary": true
     },
@@ -23,19 +23,19 @@
   ],
   "quickOverview": [
     {
-      "label": "Professional role",
-      "value": "Technical project manager",
-      "detail": "Planning · coordination · execution"
+      "label": "Role",
+      "value": "Project manager",
+      "detail": "Planning · coordination · delivery"
     },
     {
       "label": "Domain",
-      "value": "MV/LV energy infrastructure",
-      "detail": "10/0.4 kV · HSE · stakeholders"
+      "value": "Energy infrastructure",
+      "detail": "MV/LV · HSE · stakeholders"
     },
     {
-      "label": "Digital focus",
-      "value": "Practical product builder",
-      "detail": "PlanITNU · AI-assisted development"
+      "label": "Product",
+      "value": "PlanITNU",
+      "detail": "Project planning platform"
     }
   ]
 }

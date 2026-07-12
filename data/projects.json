@@ -2,26 +2,41 @@
   {
     "name": "PlanITNU",
     "type": "Flagship product",
-    "role": "Product owner & AI-assisted builder",
-    "summary": "A project planning platform shaped by real execution needs — priorities, timelines, dependencies and daily follow-up.",
-    "result": "Transforms hands-on project experience into a focused digital product.",
-    "tags": ["Next.js", "TypeScript", "Supabase", "Product design"],
+    "role": "Product owner & builder",
+    "summary": "A focused project-planning platform for priorities, timelines and daily execution.",
+    "result": "Built from real project-management needs.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Product design"
+    ],
     "featured": true
   },
   {
-    "name": "Controlled AI development workflow",
-    "type": "Delivery system",
-    "role": "Workflow designer",
-    "summary": "Scoped branches, pull requests, checks and AI coding support used as one controlled delivery flow.",
-    "result": "More speed without losing ownership or reviewability.",
-    "tags": ["GitHub", "Codex", "ChatGPT", "Quality checks"]
+    "name": "AI-assisted delivery flow",
+    "type": "Development workflow",
+    "role": "Designer & operator",
+    "summary": "Branches, pull requests and AI support combined in one controlled workflow.",
+    "result": "Faster delivery with clear ownership.",
+    "tags": [
+      "GitHub",
+      "Codex",
+      "ChatGPT",
+      "Review"
+    ]
   },
   {
     "name": "MV/LV project delivery",
     "type": "Energy infrastructure",
     "role": "Project manager",
-    "summary": "Planning and execution of technical infrastructure work involving contractors, permits, procurement, HSE and dependencies.",
-    "result": "Real delivery responsibility in critical infrastructure.",
-    "tags": ["10/0.4 kV", "Stakeholders", "HSE", "Commissioning"]
+    "summary": "Technical projects across contractors, permits, procurement, HSE and dependencies.",
+    "result": "Execution responsibility in critical infrastructure.",
+    "tags": [
+      "10/0.4 kV",
+      "Stakeholders",
+      "HSE",
+      "Commissioning"
+    ]
   }
 ]

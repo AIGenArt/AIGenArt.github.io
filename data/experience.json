@@ -1,17 +1,17 @@
 [
   {
     "period": "Current",
-    "title": "Project Manager — MV/LV energy infrastructure",
-    "description": "Planning, coordination and execution across stakeholders, contractors, permits, safety and technical dependencies."
+    "title": "Project Manager — MV/LV",
+    "description": "Planning and delivering energy-infrastructure projects with technical, commercial and safety responsibility."
   },
   {
-    "period": "2025 — present",
-    "title": "AI-assisted product builder",
-    "description": "Designing and building practical web products through structured GitHub and AI-assisted development workflows."
+    "period": "Product work",
+    "title": "Creator of PlanITNU",
+    "description": "Turning practical project experience into a working planning platform."
   },
   {
-    "period": "Earlier experience",
-    "title": "Technical operations & commissioning",
-    "description": "Hands-on experience with generators, switchgear, commissioning, production environments and permit-based work."
+    "period": "Technical foundation",
+    "title": "Commissioning & electrical systems",
+    "description": "Experience with generators, switchgear, commissioning and permit systems."
   }
 ]

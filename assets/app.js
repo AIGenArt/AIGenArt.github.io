@@ -88,7 +88,7 @@ function planitnuVisual() {
     <div class="project-grid-line relative min-h-[340px] overflow-hidden rounded-[1.5rem] border border-ink/10 bg-[#F4F8F6] p-5">
       <div class="rounded-[1.2rem] border border-ink/10 bg-white p-4 shadow-card">
         <div class="flex items-center justify-between border-b border-ink/10 pb-3 text-[0.68rem] font-extrabold uppercase tracking-[0.12em] text-ink/45">
-          <span>PlanITNU / Project view</span><span class="rounded-full bg-mint px-2 py-1 text-forest">AI plan active</span>
+          <span class="flex items-center gap-2 text-forest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="32" height="32" shape-rendering="geometricPrecision" aria-hidden="true"><g transform="translate(60, 50)" fill="currentColor"><rect x="-51" y="-25" width="10" height="50" rx="5" ry="5" transform="rotate(20 -46 0)"/><rect x="-28" y="-24" width="10" height="25" rx="5" ry="5" transform="rotate(20 -23 -11.5)"/><rect x="-10" y="-25" width="10" height="50" rx="5" ry="5" transform="rotate(20 -5 0)"/><rect x="12" y="-25" width="10" height="50" rx="5" ry="5" transform="rotate(20 17 0)"/><rect x="26" y="-25" width="10" height="50" rx="5" ry="5" transform="rotate(-20 31 0)"/><rect x="40" y="-25" width="10" height="50" rx="5" ry="5" transform="rotate(20 45 0)"/></g></svg><span>PlanITNU</span></span><span class="rounded-full bg-mint px-2 py-1 text-forest">Project view</span>
         </div>
         <div class="mt-4 grid grid-cols-[.34fr_.66fr] gap-3">
           <div class="space-y-2 rounded-xl bg-ink p-3">
